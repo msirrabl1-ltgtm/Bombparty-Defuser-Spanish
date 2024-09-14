@@ -1,21 +1,9 @@
-{
-    "name": "Bombparty Defuser",
-    "version": "1.0.1",
-    "description": "A tool to help you pick better words in Bombparty",
-    "manifest_version": 3,
-    "author": "Philip Roberts",
-    "icons": {
-    "128": "images/icon128.png"
-    },
-    "action":{
-        "default_popup": "index.html",
-        "default_title": "Window"
-    },
-    "content_scripts": [
-        {
-          "matches": ["https://*.jklm.fun/*", "https://jklm.fun/*"],
-          "js": ["content-script.js"],
-          "all_frames": true
-        }
-      ]
+"version": "1.0.0",
+"manifest_version": 3,
+"name": "Bombparty Defuser",
+"action": {
+"default_popup": "js/index.html",
+"default_title": "React Chrome Extension"
 }
+}
+```
