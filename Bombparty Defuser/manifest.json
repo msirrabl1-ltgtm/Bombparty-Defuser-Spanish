@@ -8,8 +8,8 @@
     "128": "images/icon128.png"
     },
     "action":{
-        "default_popup": "index.html",
-        "default_title": "Window"
+        "default_popup": "js/index.html",
+"default_title": "React Chrome Extension"
     },
     "content_scripts": [
         {
